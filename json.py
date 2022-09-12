@@ -1,3 +1,6 @@
+# Muhammad Yusuf
+# 5220600048
+
 import json
 
 
@@ -19,16 +22,3 @@ if myRL == "Register":
                 
     else:
         print("Registration failed! Please confirm your Password correctly.") 
-
-#if myRL == "Login":
- #   User = input("Username:") 
-  #  PW = input("Password:")
-   # with open('LoginSystemData.json', 'r') as f: 
-    #    readable = f.read() # --> you need to readable:str your file
-     #   lines = readable.splitlines() # --> ['name,pw','name,pw','name,pw']
-      #  user = list(filter(lambda l:l.split(',')[0] == User and l.split(',')[1] == PW,lines))
-       # if user:
-        #       print("Login successful")
-        #else:
-         #      print("Login failed. Wrong Username or Password.")     
-        #f.close()
